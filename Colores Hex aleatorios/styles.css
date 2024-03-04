@@ -1,0 +1,60 @@
+/* Estilos generalres */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #2B807D;
+    text-align: center;
+
+}
+
+.centrar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor */
+
+#contenedor {
+    height: 220px;
+    width: 450px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/* texto */
+
+#color{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Botón */
+
+button{
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color:  #008CBA;
+    margin: 15px;
+    padding: 10px 30px;
+    border: 3px solid #008CBA;
+    user-select: none;
+    transition-duration: 0.47s;
+    transition-delay: 0.08ss;
+    cursor: pointer;
+}
+
+button:hover{
+
+    background-color: #093689;
+}

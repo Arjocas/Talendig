@@ -1,0 +1,125 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background: url(/img/background.avif) no-repeat center center/cover;   
+}
+/* Contenedor */
+
+.contenedor{
+    width: 700px;
+    min-height: 500px;
+    background-color: white;
+    padding:40px;
+    border: 5px solid black;
+    border-radius: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titulo */
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+/* input */
+
+input{
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border:  4px solid #404040;
+    border-radius: 10px;
+}
+
+/* Boton */
+
+button{
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    background-color: #1312A8;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Lista de tareas */
+
+#lista-de-tares{
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+/* tareas */
+
+.tarea{
+    width: 100%;
+    min-height: 70px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #407BA6;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Tareas completadas */
+
+.tarea.completada {
+    text-decoration: line-through;
+    background-color: black;
+    border: none;
+}
+
+.tarea p{
+    max-width: 350px;
+}
+
+/* Iconos */
+
+i {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icono-completar {
+    color: rgb(0, 255 ,0);
+}
+.icono-eliminar{
+    color: white;
+}
+
+.icono-completar:hover,
+.icono-eliminar:hover{
+    background-color: rgba(255, 255,255, 0.523);
+}

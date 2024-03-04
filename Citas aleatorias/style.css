@@ -1,0 +1,79 @@
+/* Estilos generales */
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'lato', 'sans-serif';
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(/img/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg) no-repeat center center/cover;
+  
+}
+
+.contenido-centrado{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/*Contenedor */
+
+.contenedor{
+  width: 80vw;
+  max-width:600px;
+  min-height: 500px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 5px solid black;
+  border-radius: 30px;
+
+}
+
+.contenedor-interno{
+  width: 80%;
+
+}
+
+/* Contenido */
+
+#titulo{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'courgette', cursive;
+  
+}
+
+#cita{
+  font-size: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+#autor{
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'courgette', cursive;
+}
+
+#boton-cambiar-cita{
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
